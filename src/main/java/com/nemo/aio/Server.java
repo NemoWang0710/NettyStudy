@@ -25,7 +25,7 @@ public class Server {
         serverSocketChannel.accept(null, new CompletionHandler<AsynchronousSocketChannel, Object>() {
             @Override
             // completed 已经连接上来了。
-            public void completed(AsynchronousSocketChannel client, Object attachment) {
+            public void completed(final AsynchronousSocketChannel client, Object attachment) {
                 serverSocketChannel.accept(null,this);
                 try {
                     System.out.println(client.getRemoteAddress());
