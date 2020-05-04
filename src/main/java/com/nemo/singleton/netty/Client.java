@@ -1,4 +1,4 @@
-package com.nemo.netty;
+package com.nemo.singleton.netty;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.buffer.ByteBuf;

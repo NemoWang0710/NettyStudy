@@ -1,4 +1,4 @@
-package com.nemo.nio;
+package com.nemo.singleton.nio;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

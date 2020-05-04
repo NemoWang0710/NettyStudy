@@ -1,4 +1,4 @@
-package com.nemo.bio;
+package com.nemo.singleton.bio;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
